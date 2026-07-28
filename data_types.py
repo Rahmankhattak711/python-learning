@@ -1,46 +1,46 @@
 # These are data types
 
-# age = 20
+age = 20
 
-# print("My age is " + str(age) + " years")
+print("My age is " + str(age) + " years")
 
-# miles = 1000.0
+miles = 1000.0
 
-# print("Miles: " + str(miles))
+print("Miles: " + str(miles))
 
-# name = "Rahman"
+name = "Rahman"
 
-# print("My name is " + name)
+print("My name is " + name)
 
-# studName = {
-#   "name": "Rahman",
-#   "age": 20
-# }
+studName = {
+  "name": "Rahman",
+  "age": 20
+}
 
-# print(studName)
+print(studName)
 
-# print(studName["name"])
+print(studName["name"])
 
-# studName["name"] = "Rahmanullah"
+studName["name"] = "Rahmanullah"
 
-# print(studName)
+print(studName)
 
-# colors = ["red", "green", "blue"]
+colors = ["red", "green", "blue"]
 
-# print(colors[0])
+print(colors[0])
 
-# colors[0] = "yellow"
+colors[0] = "yellow"
 
-# print(colors)
+print(colors)
 
-# numbers = {1,2,2,3,4,5,6}
+numbers = {1,2,2,3,4,5,6}
 
-# print(numbers)
+print(numbers)
 
-# numbers.add(7)
+numbers.add(7)
 
-# print(numbers)
+print(numbers)
 
-# fruits = ("apple", "banana", "cherry")
+fruits = ("apple", "banana", "cherry")
 
-# print(fruits)
+print(fruits)
