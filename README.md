@@ -61,3 +61,22 @@ Run:
 ```bash
 python number_data_type.py
 ```
+
+### 4. String Methods (`strint_data_type.py`)
+
+Covers common string operations and formatting:
+
+| Method / Concept | Example                                      |
+|----------------|----------------------------------------------|
+| `upper()` / `lower()` / `title()` | Change letter casing              |
+| `count()` / `find()`              | Search within a string            |
+| `replace()`                       | Swap one substring for another    |
+| `split()`                         | Break a string into a list        |
+| `startswith()` / `endswith()`     | Check how a string begins or ends |
+| `format()`                        | Insert values into a template     |
+
+Run:
+
+```bash
+python strint_data_type.py
+```
