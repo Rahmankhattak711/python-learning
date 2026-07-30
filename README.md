@@ -11,6 +11,7 @@ A personal repository for learning Python fundamentals, covering core data types
 | `strint_data_type.py` | String methods & formatting |
 | `list_data_type.py` | List methods & operations |
 | `dictionary_data_type.py` | Dictionary methods & iteration |
+| `tuple_data_type.py` | Tuple creation, indexing & slicing |
 | `conditional_statements.py` | `if`, `elif`, `else` & boolean logic |
 
 ---
@@ -125,6 +126,24 @@ Covers dictionary creation, iteration, and key-based lookups:
 
 ```bash
 python dictionary_data_type.py
+```
+
+---
+
+### 7. Tuples (`tuple_data_type.py`)
+
+Covers tuple creation with mixed types, indexing, and slicing:
+
+| Concept        | Description                                              |
+|----------------|----------------------------------------------------------|
+| Tuple literal  | Ordered, immutable sequence using `()` with mixed types  |
+| Negative index | `mixed_items[-1]` accesses the last element              |
+| Slicing        | `mixed_items[2:5]` extracts a sub-sequence               |
+| `len()`        | Returns the number of elements in the tuple              |
+| Immutability   | Tuple elements cannot be changed after creation          |
+
+```bash
+python tuple_data_type.py
 ```
 
 ---
