@@ -12,6 +12,7 @@ A personal repository for learning Python fundamentals, covering core data types
 | `list_data_type.py` | List methods & operations |
 | `dictionary_data_type.py` | Dictionary methods & iteration |
 | `tuple_data_type.py` | Tuple creation, indexing & slicing |
+| `function_data_type.py` | Defining & calling functions |
 | `conditional_statements.py` | `if`, `elif`, `else` & boolean logic |
 
 ---
@@ -144,6 +145,24 @@ Covers tuple creation with mixed types, indexing, and slicing:
 
 ```bash
 python tuple_data_type.py
+```
+
+---
+
+### 8. Functions (`function_data_type.py`)
+
+Covers defining and calling reusable functions with parameters and return values:
+
+| Concept       | Description                                              |
+|---------------|----------------------------------------------------------|
+| `def`         | Define a named, reusable block of code                   |
+| Parameters    | Accept inputs (e.g. `name`, `age`, `address`)            |
+| `return`      | Send a value back to the caller                          |
+| f-strings     | Embed variables directly into strings with `f"{var}"`    |
+| Logic in functions | Use `if`/`else` inside a function (e.g. even/odd)  |
+
+```bash
+python function_data_type.py
 ```
 
 ---
