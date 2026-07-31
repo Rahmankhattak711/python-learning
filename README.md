@@ -13,6 +13,7 @@ A personal repository for learning Python fundamentals, covering core data types
 | `dictionary_data_type.py` | Dictionary methods & iteration |
 | `tuple_data_type.py` | Tuple creation, indexing & slicing |
 | `function_data_type.py` | Defining & calling functions |
+| `conditional_problem.py` | Practice problems using functions & conditionals |
 | `conditional_statements.py` | `if`, `elif`, `else` & boolean logic |
 
 ---
@@ -163,6 +164,23 @@ Covers defining and calling reusable functions with parameters and return values
 
 ```bash
 python function_data_type.py
+```
+
+---
+
+### 9. Conditional Practice Problems (`conditional_problem.py`)
+
+Applies functions and conditional logic to solve real-world problems:
+
+| Function               | Description                                                    |
+|------------------------|----------------------------------------------------------------|
+| `ageCategorization()`  | Categorizes a person as `child`, `teenager`, `adult`, or `senior` using `elif` + `and` |
+| `getMovieTicketPricing()` | Returns ticket price based on movie name, with a fallback `else` |
+| `and` operator         | Combines two conditions (e.g. `age >= 20 and age <= 59`)       |
+| `else` fallback        | Handles any input not matched by previous conditions           |
+
+```bash
+python conditional_problem.py
 ```
 
 ---
