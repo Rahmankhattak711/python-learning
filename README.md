@@ -14,12 +14,14 @@ This repository contains beginner-friendly Python examples for learning core pro
 - `conditional_statements.py` — `if`, `elif`, and `else` examples
 - `conditional_problem.py` — practice problems using conditionals and functions
 - `loop_problem_solving.py` — practice with loops and repeated logic
+- `scope_closure.py` — examples of scope, closures, and nested functions
 
 ## Topics Covered
 
 - Variables and data types
 - Conditional statements
 - Loops and repetition
+- Scope and closures
 - Numbers and random values
 - String operations
 - Lists and dictionaries
