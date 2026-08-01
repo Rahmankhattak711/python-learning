@@ -15,6 +15,7 @@ This repository contains beginner-friendly Python examples for learning core pro
 - `conditional_problem.py` — practice problems using conditionals and functions
 - `loop_problem_solving.py` — practice with loops and repeated logic
 - `scope_closure.py` — examples of scope, closures, and nested functions
+- `object_oriented_programming.py` — introduction to classes, objects, and methods
 
 ## Topics Covered
 
@@ -22,6 +23,7 @@ This repository contains beginner-friendly Python examples for learning core pro
 - Conditional statements
 - Loops and repetition
 - Scope and closures
+- Object-oriented programming
 - Numbers and random values
 - String operations
 - Lists and dictionaries
