@@ -13,11 +13,13 @@ This repository contains beginner-friendly Python examples for learning core pro
 - `function_data_type.py` — defining and calling functions
 - `conditional_statements.py` — `if`, `elif`, and `else` examples
 - `conditional_problem.py` — practice problems using conditionals and functions
+- `loop_problem_solving.py` — practice with loops and repeated logic
 
 ## Topics Covered
 
 - Variables and data types
 - Conditional statements
+- Loops and repetition
 - Numbers and random values
 - String operations
 - Lists and dictionaries
