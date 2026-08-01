@@ -21,3 +21,31 @@ def getMovieTicketPricing(movie_name):
     return "No ticket is available right now"
 
 # print(getMovieTicketPricing("baby_driver"))
+
+def passwordStrengthChecker(password):
+  if len(password) < 6:
+    print("Weak password")
+  elif len(password) >= 6 and len(password) <= 10 and str(password).isalnum() == False:
+    print("Moderate password")
+  elif len(password) > 10 and str(password).isalnum() == False:
+    print("Strong password")
+  else:
+    print("Invalid password")
+
+# passwordStrengthChecker("rahm")
+
+def getGrade(marks):
+  if marks >= 90:
+    return "A+"
+  elif marks >= 80 and marks < 90:
+    return "A"
+  elif marks >= 70 and marks < 80:
+    return "B"
+  elif marks >= 60 and marks < 70:
+    return "C"
+  elif marks >= 50 and marks < 60:
+    return "D"
+  else:
+    return "F"
+
+# print(getGrade(75))
