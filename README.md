@@ -1,48 +1,37 @@
 # Python Learning
 
-This repository contains beginner-friendly Python examples for learning core programming concepts such as data types, conditionals, functions, lists, dictionaries, tuples, and strings.
+This repository is organized into two main sections:
 
-## Files Overview
+- [basic](basic) — beginner-friendly Python exercises and examples
+- [advanced](advanced) — space for more advanced topics as the learning journey grows
 
-- `data_types.py` — overview of basic Python data types
-- `number_data_type.py` — numbers, math operations, and the `random` module
-- `strint_data_type.py` — string methods and formatting
-- `list_data_type.py` — list methods and common operations
-- `dictionary_data_type.py` — dictionaries, keys, values, and iteration
-- `tuple_data_type.py` — tuple basics, indexing, and slicing
-- `function_data_type.py` — defining and calling functions
-- `conditional_statements.py` — `if`, `elif`, and `else` examples
-- `conditional_problem.py` — practice problems using conditionals and functions
-- `loop_problem_solving.py` — practice with loops and repeated logic
-- `scope_closure.py` — examples of scope, closures, and nested functions
-- `object_oriented_programming.py` — introduction to classes, objects, and methods
+## Repository Structure
 
-## Topics Covered
-
-- Variables and data types
-- Conditional statements
-- Loops and repetition
-- Scope and closures
-- Object-oriented programming
-- Numbers and random values
-- String operations
-- Lists and dictionaries
-- Tuples
-- Functions
-- Simple practice problems
-
-## How to Run
-
-Make sure Python is installed, then run any script from this folder:
-
-```bash
-python <filename>.py
+```text
+python-learning/
+├── basic/
+│   ├── conditional_problem_solving.py
+│   ├── conditional_statements.py
+│   ├── data_types.py
+│   ├── dictionary_data_type.py
+│   ├── function_data_type.py
+│   ├── list_data_type.py
+│   ├── loop_problem_solving.py
+│   ├── number_data_type.py
+│   ├── object_oriented_programming.py
+│   ├── scope_closure.py
+│   ├── strint_data_type.py
+│   └── tuple_data_type.py
+└── advanced/
+    └── README.md
 ```
 
-Example:
+## Getting Started
+
+Start with the basic exercises to learn core Python concepts such as variables, conditionals, loops, functions, strings, lists, dictionaries, tuples, scope, closures, and object-oriented programming.
+
+Run a script from the repository root like this:
 
 ```bash
-python conditional_statements.py
+python basic/conditional_statements.py
 ```
-
-> This project is intended for learning and practice with Python 3.x.
