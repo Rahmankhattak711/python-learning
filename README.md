@@ -23,15 +23,26 @@ python-learning/
 │   ├── strint_data_type.py
 │   └── tuple_data_type.py
 └── advanced/
-    └── README.md
+    ├── 01_function.py
+    ├── 02_function.py
+    ├── 03_function.py
+    └── 04_function.py
 ```
 
 ## Getting Started
 
 Start with the basic exercises to learn core Python concepts such as variables, conditionals, loops, functions, strings, lists, dictionaries, tuples, scope, closures, and object-oriented programming.
 
+Once you are comfortable, explore the advanced function practice files in the advanced folder.
+
 Run a script from the repository root like this:
 
 ```bash
 python basic/conditional_statements.py
+```
+
+Or run an advanced example:
+
+```bash
+python advanced/03_function.py
 ```
