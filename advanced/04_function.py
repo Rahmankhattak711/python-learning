@@ -15,4 +15,13 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-print(factorial(5))
+# print(factorial(5))
+
+
+# lambda function
+
+colors = ["red", "green", "blue", "yellow"]
+
+find_color = list(filter(lambda color: color == "red", colors))
+
+print(find_color)
