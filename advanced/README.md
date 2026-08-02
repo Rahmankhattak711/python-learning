@@ -1,18 +1,21 @@
 # Advanced Python Topics
 
-This folder is intended for more advanced Python practice as your learning progresses.
+This folder contains more advanced Python practice files as part of the learning journey.
 
-## Current Status
+## Files Overview
 
-The folder is ready for new scripts and examples related to advanced topics such as:
+- `01_function.py` — examples of function definitions, arguments, and return values
 
-- decorators
-- generators
-- exception handling
-- modules and packages
-- file handling
-- concurrency and async programming
+## Topics Covered
 
-## Next Step
+- Function basics
+- Reusable code patterns
+- Practice with Python functions
 
-Add your advanced Python files here and update this README as the collection grows.
+## How to Run
+
+Run any script from the repository root with:
+
+```bash
+python advanced/01_function.py
+```
