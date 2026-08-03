@@ -4,9 +4,11 @@ This repository contains beginner-friendly Python exercises and examples organiz
 
 ## Current Topics
 
-- [comprehensions](comprehensions) — list comprehension examples
+- [comprehensions](comprehensions) — examples of comprehension concepts
 - [data_types](data_types) — practice with data types and control flow
 - [functions](functions) — function examples and practice
+- [loops](loops) — practice with loops and repeated logic
+- [conditionals](conditionals) — examples and exercises for conditional statements
 
 ## Run an Example
 
