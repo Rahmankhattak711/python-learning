@@ -1,48 +1,17 @@
 # Python Learning
 
-This repository is organized into two main sections:
+This repository contains beginner-friendly Python exercises and examples organized by topic.
 
-- [basic](basic) — beginner-friendly Python exercises and examples
-- [advanced](advanced) — space for more advanced topics as the learning journey grows
+## Current Topics
 
-## Repository Structure
+- [comprehensions](comprehensions) — list comprehension examples
+- [data_types](data_types) — practice with data types and control flow
+- [functions](functions) — function examples and practice
 
-```text
-python-learning/
-├── basic/
-│   ├── conditional_problem_solving.py
-│   ├── conditional_statements.py
-│   ├── data_types.py
-│   ├── dictionary_data_type.py
-│   ├── function_data_type.py
-│   ├── list_data_type.py
-│   ├── loop_problem_solving.py
-│   ├── number_data_type.py
-│   ├── object_oriented_programming.py
-│   ├── scope_closure.py
-│   ├── strint_data_type.py
-│   └── tuple_data_type.py
-└── advanced/
-    ├── 01_function.py
-    ├── 02_function.py
-    ├── 03_function.py
-    └── 04_function.py
-```
+## Run an Example
 
-## Getting Started
-
-Start with the basic exercises to learn core Python concepts such as variables, conditionals, loops, functions, strings, lists, dictionaries, tuples, scope, closures, and object-oriented programming.
-
-Once you are comfortable, explore the advanced function practice files in the advanced folder.
-
-Run a script from the repository root like this:
+From the repository root, run:
 
 ```bash
-python basic/conditional_statements.py
-```
-
-Or run an advanced example:
-
-```bash
-python advanced/03_function.py
+python comprehensions/01_list_comprehensions.py
 ```
