@@ -3,6 +3,6 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from advanced.user_auth import main
+from advanced.functions.user_auth import main
 
 print(main())
