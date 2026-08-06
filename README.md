@@ -9,6 +9,9 @@ This repository contains beginner-friendly Python exercises and examples organiz
 - [functions](functions) — function examples and practice
 - [loops](loops) — practice with loops and repeated logic
 - [conditionals](conditionals) — examples and exercises for conditional statements
+- [exception](exception) — examples of exception handling and file operations
+- [generators](generators) — generator examples and usage
+- [decorators](decorators) — decorator examples and practice
 
 ## Run an Example
 
