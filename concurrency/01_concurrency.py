@@ -5,20 +5,22 @@ import time
 def taking_order():
     for i in range(1, 10):
         print(f"Order {i} is being prepared")
-        time.sleep(5)
+        time.sleep(1)
 
 
 def serve_order():
     for i in range(1, 10):
         print(f"Order {i} is being served")
-        time.sleep(5)
+        time.sleep(1)
 
 
 def collect_payment():
     for i in range(1, 10):
         print(f"Payment for order {i} is being collected")
-        time.sleep(5)
+        time.sleep(1)
 
+
+start = time.time()
 
 taking_order_thread = threading.Thread(target=taking_order)
 serve_order_thread = threading.Thread(target=serve_order)
@@ -32,4 +34,6 @@ taking_order_thread.join()
 serve_order_thread.join()
 collect_payment_thread.join()
 
-# print("All orders have been completed")
+end = time.time()
+
+print(f"Time taken: {end - start:.2f} seconds")
