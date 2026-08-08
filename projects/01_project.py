@@ -44,15 +44,17 @@ def search_contact():
 
 
 def main():
-    add = input("Do you want to add a contact? (1): ").lower()
-    view = input("Do you want to view contacts? (2): ").lower()
-    search = input("Do you want to search for a contact? (3): ").lower()
+    print("Do you want to add a contact? (1): ")
+    print("Do you want to view all contacts? (2): ")
+    print("Do you want to search for a contact? (3): ")
 
-    if add == "1":
+    choice = input("Enter your choice: (1-3)")
+
+    if choice == "1":
         add_contact()
-    elif view == "2":
+    elif choice == "2":
         view_contact()
-    elif search == "3":
+    elif choice == "3":
         search_contact()
     else:
         print("Invalid choice")
