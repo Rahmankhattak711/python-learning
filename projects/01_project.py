@@ -3,9 +3,9 @@ import os
 
 FILENAME = "contact.csv"
 
-if os.path.exists(FILENAME):
-    with open(FILENAME, "w"):
-        writer = csv.writer(open(FILENAME, "w"))
+if not os.path.exists(FILENAME):
+    with open(FILENAME, "w", newline="") as file:
+        writer = csv.writer(file)
         writer.writerow(["Name", "Email", "Phone"])
 
 
@@ -14,20 +14,49 @@ def add_contact():
     email = input("Email: ")
     phone = input("Phone: ")
 
-    if os.path.exists(FILENAME):
-        with open(FILENAME, "a") as file:
-            writer = csv.writer(file)
-            writer.writerow([name, email, phone])
-    else:
-        with open(FILENAME, "w") as file:
-            writer = csv.writer(file)
-            writer.writerow(["Name", "Email", "Phone"])
-
-    with open(FILENAME, "a") as file:
+    with open(FILENAME, "a", newline="") as file:
         writer = csv.writer(file)
         writer.writerow([name, email, phone])
 
     print("Contact added successfully")
 
 
-add_contact()
+def view_contact():
+    if os.path.exists(FILENAME):
+        with open(FILENAME, "r") as file:
+            reader = csv.reader(file)
+            for row in reader:
+                print(row)
+    else:
+        print("Contact list is empty")
+
+
+def search_contact():
+    name = input("Enter name of contact to search: ")
+    with open(FILENAME, "r") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if row[0] == name:
+                print(row)
+                break
+            else:
+                print("Contact not found")
+
+
+def main():
+    add = input("Do you want to add a contact? (1): ").lower()
+    view = input("Do you want to view contacts? (2): ").lower()
+    search = input("Do you want to search for a contact? (3): ").lower()
+
+    if add == "1":
+        add_contact()
+    elif view == "2":
+        view_contact()
+    elif search == "3":
+        search_contact()
+    else:
+        print("Invalid choice")
+
+
+if __name__ == "__main__":
+    main()
