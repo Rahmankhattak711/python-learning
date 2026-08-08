@@ -2,9 +2,10 @@
 
 This repository contains beginner-friendly Python exercises and examples organized by topic.
 
-## Current Topics
+## Folder Reference
 
 - [comprehensions](comprehensions) — examples of comprehension concepts
+- [concurrency](concurrency) — concurrency examples and practice
 - [data_types](data_types) — practice with data types and control flow
 - [functions](functions) — function examples and practice
 - [loops](loops) — practice with loops and repeated logic
@@ -12,6 +13,7 @@ This repository contains beginner-friendly Python exercises and examples organiz
 - [exception](exception) — examples of exception handling and file operations
 - [generators](generators) — generator examples and usage
 - [decorators](decorators) — decorator examples and practice
+- [projects](projects) — Python projects and practical exercises
 
 ## Run an Example
 
